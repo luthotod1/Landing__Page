@@ -1,0 +1,269 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/* main color: #087f5b*/
+/* gey color:  #343a40*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "inter", sans-serif, "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
+  /* position: relative; */
+}
+header .icon {
+  stroke: #087f5b;
+}
+header {
+  position: -webkit-sticky;
+}
+.icon {
+  width: 24px;
+  height: auto;
+  stroke: #edf1f0;
+  margin-right: 12px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.add {
+  border: none;
+  margin-right: 12px;
+  padding: 8px 12px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #087f5b;
+  color: #cfcccc !important;
+}
+.add:hover {
+  background-color: #20c997;
+  cursor: pointer;
+}
+.spe:hover {
+  background-color: #087f5b;
+}
+
+.links:hover,
+.links:active {
+  text-decoration: underline !important;
+}
+.links:link,
+.links:visited {
+  text-decoration: none;
+  font-size: 24px;
+  color: #087f5b;
+  margin-right: 32px;
+  font-weight: 550;
+}
+.links:first-child {
+  text-decoration: underline;
+}
+.brand-name {
+  font-weight: 300;
+  font-size: 24px;
+  color: #868e96;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid #087f5b 2px;
+  border-top: solid #087f5b 2px;
+  padding: 32px;
+}
+.btn {
+  font-size: 18px;
+  background-color: #087f5b;
+  color: #fff !important;
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+article {
+  padding: 0 32px;
+  background-color: #edf1f0;
+}
+.cart {
+  font-size: 18px;
+  /* background-color: #087f5b; */
+  color: #fff !important;
+  display: flex;
+}
+.btn--shop {
+  font-size: 24px;
+}
+.btn:hover {
+  background-color: #20c997;
+}
+.hero {
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(134, 142, 150, 0.63),
+      rgba(134, 142, 150, 0.63)
+    ),
+    url(images/dose-media.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.float h2,
+.float p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.tech {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.story {
+  background-color: #20c997;
+}
+.box {
+  background-color: #fff;
+  color: black;
+  padding: 24px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 32px;
+}
+.products {
+  margin-top: 48px;
+  display: flex;
+
+  align-items: center;
+  padding: 32px;
+  gap: 24px;
+}
+.pic {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 24px;
+}
+h3 {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+.destript {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+/* .products img:hover {
+  background-image: linear-gradient(
+    rgba(134, 142, 150, 0.63),
+    rgba(134, 142, 150, 0.63)
+  );
+}
+img:hover {
+  background-image: linear-gradient(
+    rgba(134, 142, 150, 0.63),
+    rgba(134, 142, 150, 0.63)
+  );
+} */
+h2 {
+  font-size: 36px;
+  padding: 24px;
+}
+.float p {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.product {
+  border: #868e96 solid 1px;
+}
+.product:last-child {
+  background-color: #20c997;
+  color: #262727;
+}
+.product:last-child .price {
+  color: #262727;
+}
+.product-name {
+  font-size: 30px;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+.price {
+  color: #087f5b;
+  font-weight: 900;
+  font: 24px;
+  padding: 12px;
+}
+.testimonal {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  column-gap: 24px;
+}
+.testimonal2 {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  column-gap: 24px;
+}
+.testimonal p,
+.testimonal2 p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.tex {
+  display: block;
+  height: 50px;
+  padding: 8px;
+  font-size: 18px;
+  width: 300px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+textarea {
+  padding: 8px;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.submit {
+  display: block !important;
+}
+.contact,
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  font-size: 12px;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+.float {
+  padding-top: 32px;
+}
